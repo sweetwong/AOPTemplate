@@ -5,7 +5,6 @@
       <module name="KaptDemo.app" target="11" />
       <module name="KaptDemo.buildSrc" target="11" />
       <module name="KaptDemo.transform" target="11" />
-      <module name="transform" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

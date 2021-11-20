@@ -1,3 +1,4 @@
+includeBuild 'transform'
 include ':app'
 //include ':api-apt'
 //include ':api'

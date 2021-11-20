@@ -24,7 +24,7 @@ class MyTransform : Transform() {
         println(invocation)
         val inputs = invocation.inputs
         inputs.forEach { input ->
-            input.directoryInputs.forEach {  directoryInput ->
+            input.directoryInputs.forEach { directoryInput ->
                 directoryInput.file.walk().forEach { file ->
                     println(file)
                 }
