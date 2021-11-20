@@ -21,7 +21,18 @@ class MyTransform : Transform() {
     }
 
     override fun transform(invocation: TransformInvocation) {
-        println("不错：" + invocation)
+        println(invocation)
+        val inputs = invocation.inputs
+        inputs.forEach { input ->
+            input.directoryInputs.forEach {  directoryInput ->
+                directoryInput.file.walk().forEach { file ->
+                    println(file)
+                }
+            }
+            input.jarInputs.forEach { jarInput ->
+                println(jarInput.file)
+            }
+        }
     }
 
 }

@@ -2,9 +2,7 @@ package sweet.wong.kaptdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import sweet.wong.api.ExportedServiceImpl
 
-@ExportedServiceImpl(values = [IAccountManager::class])
 class MainActivity : AppCompatActivity() {
 
     private var count = 0
