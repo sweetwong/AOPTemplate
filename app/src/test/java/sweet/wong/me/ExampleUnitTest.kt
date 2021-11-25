@@ -1,4 +1,4 @@
-package sweet.wong.kaptdemo
+package sweet.wong.me
 
 import org.junit.Test
 

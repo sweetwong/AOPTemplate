@@ -1,2 +1,2 @@
-includeBuild 'transform'
+includeBuild 'ftnn-build'
 include ':app'

@@ -13,10 +13,6 @@ buildscript {
     }
 }
 
-plugins {
-    id 'transform'
-}
-
 allprojects {
     repositories {
         google()

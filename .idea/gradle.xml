@@ -7,9 +7,9 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/transform" name="transform">
+              <build path="$PROJECT_DIR$/ftnn-build" name="ftnn-build">
                 <projects>
-                  <project path="$PROJECT_DIR$/transform" />
+                  <project path="$PROJECT_DIR$/ftnn-build" />
                 </projects>
               </build>
             </builds>
@@ -22,7 +22,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/transform" />
+            <option value="$PROJECT_DIR$/ftnn-build" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
